@@ -40,6 +40,7 @@ int main() {
         // Searching for a book
         else if (choice == 3) {
             string searchTitle;
+            bool found =false;
             cout << "Enter book title to search: ";
             cin >> searchTitle;
 
@@ -48,8 +49,10 @@ int main() {
                     cout << "Book Found!\n";
                     cout << "Title: " << books[i].title << endl;
                     cout << "Author: " << books[i].author << endl;
+                    found = true;
                 }
-            }
+           }
+       if (!found) { cout << "Book not found!\n";
         }
 
     } while (choice != 4);
