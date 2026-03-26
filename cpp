@@ -16,8 +16,7 @@ int main() {
         cout << "\n1. Add Book\n";
         cout << "2. Show Books\n";
         cout << "3. Search Book\n";
-        
-cout << "Book added successfully! Total books now: " << count << endl;
+        cout << "Book added successfully! Total books now: " << count << endl;
         cout << "4. Exit\n";
         cout << "Enter choice: ";
         cin >> choice;
