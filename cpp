@@ -35,8 +35,8 @@ int main() {
             for (int i = 0; i < count; i++) {
                 cout << "\nTitle: " << books[i].title;
                 cout << "\nAuthor: " << books[i].author << endl;
-            }
-        }
+            cout
+        }cout << "\nTotal books: " << count << endl;
 
         // Searching for a book
         else if (choice == 3) {
